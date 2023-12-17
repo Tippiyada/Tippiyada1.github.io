@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        table { 
+            width: 75%;
+            background-color: rgba(76, 224, 254, 0.986);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">
+        แบบสอบถาม
+    </h1>
+    <hr>
+    <table align="center" width="75%" border="0"> 
+        <tr>
+            <td colspan="2">
+                <b>ข้อมูลผู้ตอบแบบสอบถาม</b>
+            </td>
+        </tr>
+        <tr>
+            <td width="100px"><b>
+                ชื่อ นามสกุล
+            </b>
+            </td>
+            <td>
+                <input type="text" style="width: 95%;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>รหัสนักศึกษา</b>
+            </td>
+            <td> <input type="text" style="width: 95%;"></td>
+        </tr>
+        <tr>
+            <td>
+                <b>เพศ</b>
+            </td>
+            <td>
+                <input type="radio" name="gender">ชาย 
+                <input type="radio" name="gender">หญิง
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>สังกัดคณะ</b>
+            </td>
+            <td>
+                <select name="" id="">
+                    <option value="">วิทยาศาสตร์</option>
+                    <option value="">วิทยาการคอมพิวเตอร์</option>
+                    <!-- ... (เพิ่ม options ต่อไปตามลำดับ) ... -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>แม่สีที่ชื่นชอบ</b><br>
+                <input type="checkbox">สีแดง
+                <input type="checkbox">สีเหลือง
+                <input type="checkbox">สีน้ำตาล
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>ผลไม้ที่ชื่นชอบ</b><br>
+                <input type="checkbox">มะขาม
+                <input type="checkbox">มังคุด
+                <!-- ... (เพิ่ม checkboxes ต่อไปตามลำดับ) ... -->
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>อาหารที่ชื่นชอบ</b><br>
+                <input type="checkbox">ก๋วยเตี๋ยว
+                <input type="checkbox">ข้าวกระเพราไก่
+                <!-- ... (เพิ่ม checkboxes ต่อไปตามลำดับ) ... -->
+            </td>
+        </tr>
+        <tr>
+            <td  colspan="2" align="center">
+                <input type="submit" value="บันทึก">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
